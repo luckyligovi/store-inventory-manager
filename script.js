@@ -25,5 +25,6 @@ fetch('https://fakestoreapi.com/products').then((data)=>{
     </tr>`;
     })
     document.getElementById("t-body").innerHTML = tableData;
-
-})
+}).catch((err)=>{
+    HTMLFormControlsCollection.log()
+}) 
