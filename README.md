@@ -18,7 +18,7 @@ This is an app used to shop.You can search the product you want to buy,the app w
 
 ## link
 You can view the live page from [here](https//luckyligovi/store-inventory-manager/)
-## Authors(Shopping-enthusiasts)
+## Authors
 - Lucky ligovi
 ## Setup
 - clone the repo
