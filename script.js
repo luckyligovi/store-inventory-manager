@@ -17,3 +17,6 @@ fetch('https://fakestoreapi.com/products')
 }).catch((error)=>{
     console.log(error)
 }) 
+document.getElementById("myBtn").addEventListener("click", function() {
+    alert("clothes,shoes and electrical gadjets");
+  });
