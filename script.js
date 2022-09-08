@@ -20,3 +20,6 @@ fetch('https://fakestoreapi.com/products')
 document.getElementById("myBtn").addEventListener("click", function() {
     alert("clothes,shoes and electrical gadjets");
   });
+  function changeText(id) {
+    id.innerHTML = "Store table";
+  }  
