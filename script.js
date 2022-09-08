@@ -49,5 +49,18 @@ function myFunction(e) {
         
     console.log('>>>>>>>', filteredProducts)
 
+    let tableData2 = ""
+
+    filteredProducts.map((values)=>{
+        tableData2 +=`
+        <tr>
+            <td>${values.title}</td>
+            <td>${values.description}</td>
+            <td>${values.price}</td>
+            <td><img src="${values.image}"/</td>
+        </tr>`;
+    })
+
+    document.getElementById("t-body").innerHTML = tableData2;
 
 };

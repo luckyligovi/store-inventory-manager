@@ -1,4 +1,9 @@
-body {
-  background-color: rgba(58, 4, 6, 0.926) !important;
-  background: #000;
+h1{
+  text-align: center;
+  font-size: x-large;
+}
+
+form{
+  text-align: center;
+  font-weight: 600;
 }
