@@ -4,6 +4,9 @@ h1{
 }
 
 form{
-  text-align: center;
+  margin: center;
   font-weight: 600;
+  width: 50%;
+  text-align: center;
+  padding: auto;
 }
